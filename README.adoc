@@ -1,0 +1,10 @@
+= uthash
+
+A hash table and other data structures for C. Bazelized fork of link:https://troydhanson.github.io/uthash/[uthash].
+
+
+Documentation for uthash is available at:
+
+https://troydhanson.github.io/uthash/
+
+

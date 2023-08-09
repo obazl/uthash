@@ -1,0 +1,29 @@
+# exports_files(glob(["*.*"]))
+
+filegroup(
+    name = "uthash.hdrs",
+    srcs = [
+        "utarray.h",
+        "uthash.h",
+        "utlist.h",
+        "utringbuffer.h",
+        "utstack.h",
+        # "utstring.h"
+    ],
+    visibility = ["//visibility:public"]
+)
+
+cc_library(
+    name = "uthash",
+    srcs = ["utstrsort.c"],
+    hdrs = [
+        "utarray.h",
+        "uthash.h",
+        "utlist.h",
+        "utringbuffer.h",
+        "utstack.h",
+        "utstring.h",
+        "utstrsort.h",
+    ],
+    visibility = ["//visibility:public"]
+)
