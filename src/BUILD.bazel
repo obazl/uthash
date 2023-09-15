@@ -1,7 +1,5 @@
-# exports_files(glob(["*.*"]))
-
 filegroup(
-    name = "uthash.hdrs",
+    name = "hdrs",
     srcs = [
         "utarray.h",
         "uthash.h",
