@@ -1,7 +1,8 @@
 module(
-    name = "uthash",
-    version = "3.0.0",  ## uthash 2.3.0
-    compatibility_level = 3,
-    bazel_compatibility = [">=6.0.0"]
+    name                = "uthash",
+    version             = "2.3.0.bzl",
+    compatibility_level = 2,
+    bazel_compatibility = [">=6.3.0"]
 )
 
+bazel_dep(name = "rules_cc",       version = "0.0.17")
